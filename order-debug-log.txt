@@ -1,0 +1,4 @@
+Starting placeOrder
+Created order ID: 8
+Processing item for product_id: ps-5
+ERROR: Class "OrderItem" not found
