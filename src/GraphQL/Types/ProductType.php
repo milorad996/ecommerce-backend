@@ -3,6 +3,9 @@
 
 namespace App\GraphQL\Types;
 
+use App\GraphQL\Types\GalleryType;
+use App\GraphQL\Types\PriceType;
+use App\GraphQL\Types\AttributeType;
 use App\Models\Attribute;
 use App\Models\ProductImage;
 use App\Models\ProductPrice;

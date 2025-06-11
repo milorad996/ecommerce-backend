@@ -3,7 +3,6 @@
 namespace App;
 
 use mysqli;
-use Dotenv\Dotenv;
 
 class Database
 {
@@ -15,9 +14,6 @@ class Database
 
     public function __construct()
     {
-        $dotenv = Dotenv::createImmutable(dirname(__DIR__));
-        $dotenv->load();
-
         $this->host = $_ENV['DB_HOST'];
         $this->user = $_ENV['DB_USER'];
         $this->password = $_ENV['DB_PASS'];
